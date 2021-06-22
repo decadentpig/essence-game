@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"LayerId":{"name":"46d7793a-cb5b-433f-8a0e-fc8ce55d5632","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","name":"33fdc0e9-252e-4568-8b11-15e9585cb367","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8aae2e3-ac98-4173-8de9-34caebd9d6a8","path":"sprites/sTankSelected/sTankSelected.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8aae2e3-ac98-4173-8de9-34caebd9d6a8","path":"sprites/sTankSelected/sTankSelected.yy",},"LayerId":{"name":"e71bd0d3-4e62-4f2b-94d1-22bebc3ca30d","path":"sprites/sTankSelected/sTankSelected.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTankSelected","path":"sprites/sTankSelected/sTankSelected.yy",},"resourceVersion":"1.0","name":"b8aae2e3-ac98-4173-8de9-34caebd9d6a8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},
+    "spriteId": {"name":"sTankSelected","path":"sprites/sTankSelected/sTankSelected.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"08cdc0ee-c3bc-4681-886d-c36fa19d9dc6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"43f14090-6980-4406-87fe-03b65c14fa70","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8aae2e3-ac98-4173-8de9-34caebd9d6a8","path":"sprites/sTankSelected/sTankSelected.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},
+    "parent": {"name":"sTankSelected","path":"sprites/sTankSelected/sTankSelected.yy",},
     "resourceVersion": "1.3",
-    "name": "sMeleeLarge",
+    "name": "sTankSelected",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46d7793a-cb5b-433f-8a0e-fc8ce55d5632","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e71bd0d3-4e62-4f2b-94d1-22bebc3ca30d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Player Sprites/Icons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMeleeLarge",
+  "name": "sTankSelected",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Large",
-    "path": "folders/Sprites/Player Sprites/Large.yy",
+    "name": "Icons",
+    "path": "folders/Sprites/Player Sprites/Icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTankLarge",

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"LayerId":{"name":"46d7793a-cb5b-433f-8a0e-fc8ce55d5632","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","name":"33fdc0e9-252e-4568-8b11-15e9585cb367","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69f9647f-69fb-4a00-bf8d-187b50373871","path":"sprites/sRangedSelected/sRangedSelected.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69f9647f-69fb-4a00-bf8d-187b50373871","path":"sprites/sRangedSelected/sRangedSelected.yy",},"LayerId":{"name":"261373e0-c808-464b-a803-f82526d4bba1","path":"sprites/sRangedSelected/sRangedSelected.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sRangedSelected","path":"sprites/sRangedSelected/sRangedSelected.yy",},"resourceVersion":"1.0","name":"69f9647f-69fb-4a00-bf8d-187b50373871","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},
+    "spriteId": {"name":"sRangedSelected","path":"sprites/sRangedSelected/sRangedSelected.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"08cdc0ee-c3bc-4681-886d-c36fa19d9dc6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33fdc0e9-252e-4568-8b11-15e9585cb367","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"691e91fc-1694-4866-9b06-21a0667a3b63","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69f9647f-69fb-4a00-bf8d-187b50373871","path":"sprites/sRangedSelected/sRangedSelected.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMeleeLarge","path":"sprites/sMeleeLarge/sMeleeLarge.yy",},
+    "parent": {"name":"sRangedSelected","path":"sprites/sRangedSelected/sRangedSelected.yy",},
     "resourceVersion": "1.3",
-    "name": "sMeleeLarge",
+    "name": "sRangedSelected",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46d7793a-cb5b-433f-8a0e-fc8ce55d5632","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"261373e0-c808-464b-a803-f82526d4bba1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Player Sprites/Icons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMeleeLarge",
+  "name": "sRangedSelected",
   "tags": [],
   "resourceType": "GMSprite",
 }

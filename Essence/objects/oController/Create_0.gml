@@ -15,5 +15,5 @@ spritesArray = [
 				sControllerGreen, 
 				sControllerPurple,
 				sControllerRed,
-				sControllerGreen
+				sControllerYellow
 				];

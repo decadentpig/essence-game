@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sTankLarge",
-    "path": "sprites/sTankLarge/sTankLarge.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSelect",
-    "path": "objects/oSelect/oSelect.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +19,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Class Select Objects",
-    "path": "folders/Objects/Class Select Objects.yy",
+    "name": "Room Handler Objects",
+    "path": "folders/Objects/Room Handler Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSelectTank",
+  "name": "oPlayerSpawner",
   "tags": [],
   "resourceType": "GMObject",
 }

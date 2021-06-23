@@ -1,4 +1,4 @@
-// Check for inputs from all possible gamepads
+// Check for inputs from all possible gamepads, assign to players
 for (i = 0; i < 8; i++) {
 	// If gamepad makes an input, and no player struct has claimed that gamepad,
 	// enter this conditional
@@ -37,3 +37,6 @@ for (i = 0; i < 8; i++) {
 		}
 	}	
 }
+
+// DEBUG MODE ONLY: Restart game
+if (keyboard_check(ord("R"))) game_restart();

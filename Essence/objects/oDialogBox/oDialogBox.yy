@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sTankLarge",
-    "path": "sprites/sTankLarge/sTankLarge.yy",
+    "name": "sNineSlice2",
+    "path": "sprites/sNineSlice2/sNineSlice2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSelect",
-    "path": "objects/oSelect/oSelect.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -30,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Class Select Objects",
-    "path": "folders/Objects/Class Select Objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSelectTank",
+  "name": "oDialogBox",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -13,6 +13,8 @@ if (!playersAssigned()) {
 			// DEPRECATED:
 			// Determine player number (0 - 3) based on controller position in OS
 			// arrayPosition = (i < 4) ? i : i - 4;
+			
+			show_debug_message("Gamepad " + gamepad_get_description(i) + " found!");
 		
 			// Assign first available player number (position in PLAYERS array)
 			for (j = 0; j < 4; j++) {

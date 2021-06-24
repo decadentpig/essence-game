@@ -10,6 +10,6 @@ if (
 		state = "ready";
 }
 
-if (state == "ready" && gamepad_button_check(player1inputID, gp_face1)) {
+if (state == "ready" && gamepad_button_check(global.PLAYER_1.inputID, gp_face1)) {
 	room_goto_next();	
 }

@@ -17,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +27,7 @@
     "path": "folders/Objects/Room Handler Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRoom1Handler",
+  "name": "oInputListener",
   "tags": [],
   "resourceType": "GMObject",
 }

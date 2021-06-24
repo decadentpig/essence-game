@@ -9,10 +9,6 @@ if (!playersAssigned()) {
 			global.PLAYER_2.inputID != i &&
 			global.PLAYER_3.inputID != i &&
 			global.PLAYER_4.inputID != i) {
-
-			// DEPRECATED:
-			// Determine player number (0 - 3) based on controller position in OS
-			// arrayPosition = (i < 4) ? i : i - 4;
 		
 			// Assign first available player number (position in PLAYERS array)
 			for (j = 0; j < 4; j++) {
@@ -24,6 +20,9 @@ if (!playersAssigned()) {
 		
 			// Pass this inputID to associated player
 			global.PLAYERS[arrayPosition].inputID = i;
+			
+			// Pass player number to player struct
+			global.PLAYERS[arrayPosition].playerNumber = arrayPosition + 1;
 
 			// Store position of "ghost" controller in menu, then delete it
 			oldController = global.PLAYERS[arrayPosition].controlObj;

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"playersAssigned","path":"scripts/playersAssigned/playersAssigned.yy",},"order":2,},
+    {"id":{"name":"oInputListener","path":"objects/oInputListener/oInputListener.yy",},"order":3,},
     {"id":{"name":"sMelee","path":"sprites/sMelee/sMelee.yy",},"order":1,},
     {"id":{"name":"sControllerPurple","path":"sprites/sControllerPurple/sControllerPurple.yy",},"order":2,},
     {"id":{"name":"oDialogBox","path":"objects/oDialogBox/oDialogBox.yy",},"order":13,},

@@ -1,6 +1,9 @@
 On Windows, gamepad_get_description() returns:
 
-	Gamepad Sony DualShock 4 found!    (PS4)
-	Gamepad Wireless Controller found! (PS5)
+	Sony DualShock 4    (PS4)
+	Wireless Controller (PS5)
 
 On Mac, gamepad_get_description() returns:
+
+	PS4 Controller 	 (PS4)
+	Wireless Controller	 (PS5)

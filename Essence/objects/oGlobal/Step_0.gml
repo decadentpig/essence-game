@@ -13,8 +13,6 @@ if (!playersAssigned()) {
 			// DEPRECATED:
 			// Determine player number (0 - 3) based on controller position in OS
 			// arrayPosition = (i < 4) ? i : i - 4;
-			
-			show_debug_message("Gamepad " + gamepad_get_description(i) + " found!");
 		
 			// Assign first available player number (position in PLAYERS array)
 			for (j = 0; j < 4; j++) {
@@ -26,7 +24,7 @@ if (!playersAssigned()) {
 		
 			// Pass this inputID to associated player
 			global.PLAYERS[arrayPosition].inputID = i;
-		
+
 			// Store position of "ghost" controller in menu, then delete it
 			oldController = global.PLAYERS[arrayPosition].controlObj;
 			setX = oldController.x;

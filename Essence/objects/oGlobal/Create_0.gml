@@ -27,3 +27,4 @@ global.PLAYER_4 = {
 }
 
 global.PLAYERS = [global.PLAYER_1, global.PLAYER_2, global.PLAYER_3, global.PLAYER_4];
+

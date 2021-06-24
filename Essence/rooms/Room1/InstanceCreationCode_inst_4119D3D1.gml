@@ -1,0 +1,2 @@
+targetObject = oPlayerRanged;
+targetVariable = "playerSpeed";

@@ -1,0 +1,2 @@
+targetObject = oPlayerHealer;
+targetVariable = "playerSpeed";

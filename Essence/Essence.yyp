@@ -1,8 +1,9 @@
 {
   "resources": [
     {"id":{"name":"playersAssigned","path":"scripts/playersAssigned/playersAssigned.yy",},"order":2,},
-    {"id":{"name":"oInputListener","path":"objects/oInputListener/oInputListener.yy",},"order":3,},
+    {"id":{"name":"oInputListener","path":"objects/oInputListener/oInputListener.yy",},"order":0,},
     {"id":{"name":"sMelee","path":"sprites/sMelee/sMelee.yy",},"order":1,},
+    {"id":{"name":"oStatModifier","path":"objects/oStatModifier/oStatModifier.yy",},"order":1,},
     {"id":{"name":"sControllerPurple","path":"sprites/sControllerPurple/sControllerPurple.yy",},"order":2,},
     {"id":{"name":"oDialogBox","path":"objects/oDialogBox/oDialogBox.yy",},"order":13,},
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"order":1,},
@@ -18,6 +19,7 @@
     {"id":{"name":"sHealer","path":"sprites/sHealer/sHealer.yy",},"order":0,},
     {"id":{"name":"sTank","path":"sprites/sTank/sTank.yy",},"order":3,},
     {"id":{"name":"fPixeled","path":"fonts/fPixeled/fPixeled.yy",},"order":0,},
+    {"id":{"name":"sStatModifier","path":"sprites/sStatModifier/sStatModifier.yy",},"order":16,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":4,},
     {"id":{"name":"oBoundary","path":"objects/oBoundary/oBoundary.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
@@ -87,6 +89,7 @@
     {"folderPath":"folders/Sprites/Player Sprites/Icons.yy","order":8,"resourceVersion":"1.0","name":"Icons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Class Select Objects.yy","order":11,"resourceVersion":"1.0","name":"Class Select Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room Handler Objects.yy","order":14,"resourceVersion":"1.0","name":"Room Handler Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Debugging Tools.yy","order":15,"resourceVersion":"1.0","name":"Debugging Tools","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sHealer",
-    "path": "sprites/sHealer/sHealer.yy",
+    "name": "sStatModifier",
+    "path": "sprites/sStatModifier/sStatModifier.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oPlayer",
-    "path": "objects/oPlayer/oPlayer.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,15 +22,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":5,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Objects",
-    "path": "folders/Objects/Player Objects.yy",
+    "name": "Debugging Tools",
+    "path": "folders/Objects/Debugging Tools.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerHealer",
+  "name": "oStatModifier",
   "tags": [],
   "resourceType": "GMObject",
 }

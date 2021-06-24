@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Room Handler Objects",
-    "path": "folders/Objects/Room Handler Objects.yy",
+    "name": "Debugging Tools",
+    "path": "folders/Objects/Debugging Tools.yy",
   },
   "resourceVersion": "1.0",
   "name": "oInputListener",

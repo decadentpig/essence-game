@@ -11,7 +11,7 @@ if (global.GAME_PAUSED == false) {
 }
 
 // Allow the player to cancel their selection with square button
-if (madeSelection == true && gamepad_button_check(inputID, gp_face2)) {
+if (madeSelection == true && gamepad_button_check(inputID, player.faceRight)) {
 	// revert to oController defaults
 	madeSelection = false;
 	playerSpeed = defaultSpeed;

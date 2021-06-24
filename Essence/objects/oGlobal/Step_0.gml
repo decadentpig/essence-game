@@ -35,6 +35,14 @@ if (!playersAssigned()) {
 			// to player struct
 			newController = instance_create_layer(setX,setY,"Players_Layer",oController);
 			global.PLAYERS[arrayPosition].controlObj = newController;
+			
+			// If player is using a PS5 DualSense, remap face buttons
+			if (gamepad_get_description(i) == "Wireless Controller") {
+				global.PLAYERS[arrayPosition].faceTop =	gp_face4;
+				global.PLAYERS[arrayPosition].faceLeft = gp_face1;
+				global.PLAYERS[arrayPosition].faceRight = gp_face3;
+				global.PLAYERS[arrayPosition].faceBottom =	gp_face2;
+			}
 
 			// Pass initial values into controller object
 			with (newController) {

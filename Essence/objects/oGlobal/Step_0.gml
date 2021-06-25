@@ -59,3 +59,8 @@ if (!playersAssigned()) {
 
 // DEBUG MODE ONLY: Restart game
 if (keyboard_check(ord("R"))) game_restart();
+// DEBUG MODE ONLY: Fullscreen toggle
+if (keyboard_check(ord("F"))) {
+	current = window_get_fullscreen();
+	window_set_fullscreen(!current);
+}

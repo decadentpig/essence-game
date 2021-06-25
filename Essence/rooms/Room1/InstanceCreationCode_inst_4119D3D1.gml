@@ -1,2 +1,0 @@
-targetObject = oPlayerRanged;
-targetVariable = "playerSpeed";

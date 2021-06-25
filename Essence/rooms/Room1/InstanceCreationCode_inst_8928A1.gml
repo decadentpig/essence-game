@@ -1,2 +1,0 @@
-targetObject = oPlayerTank;
-targetVariable = "playerSpeed";

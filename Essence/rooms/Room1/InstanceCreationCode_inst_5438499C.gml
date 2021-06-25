@@ -1,2 +1,0 @@
-targetObject = oPlayerMelee;
-targetVariable = "playerSpeed";

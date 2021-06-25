@@ -1,2 +1,2 @@
-playerSpeed = 3;
+playerSpeed = 2;
 inputID = -1;

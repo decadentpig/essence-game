@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sHealer",
-    "path": "sprites/sHealer/sHealer.yy",
+    "name": "sPointer",
+    "path": "sprites/sPointer/sPointer.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oPlayer",
-    "path": "objects/oPlayer/oPlayer.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/Player Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerHealer",
+  "name": "oArrow",
   "tags": [],
   "resourceType": "GMObject",
 }

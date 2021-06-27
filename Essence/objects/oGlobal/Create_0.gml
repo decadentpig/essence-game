@@ -1,7 +1,3 @@
-global.MANAGER = id;
-global.GAME_PAUSED = false;
-
-
 global.PLAYER_1 = {
 	inputID: -1,
 	playerNumber: -1,
